@@ -77,6 +77,7 @@ def main(offset):
         write_to_file(item,'123')
 
 #判断是否在本文件执行函数
+#当其他文件导入本文件时不执行下边代码
 if __name__ == '__main__':
     for i in range(10): # i为0~9
         main(offset=i*10)

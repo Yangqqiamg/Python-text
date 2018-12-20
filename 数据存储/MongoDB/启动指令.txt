@@ -1,0 +1,1 @@
+跳转到所在目录运行 mongod.exe --nojournal --dbpath .

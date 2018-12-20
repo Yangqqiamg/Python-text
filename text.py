@@ -11,3 +11,7 @@ print(tuple(data.values())*2)
 
 for key in data:
     print(key)
+
+def text():
+    nmes={'name':'Kevin','name2':'Tom'}
+    return nmes
