@@ -9,7 +9,7 @@ from requests.exceptions import RequestException
 import re
 import time
 
-#获取一页的源代码
+#获取一页的源代码#
 def get_one_page(url):
     #尝试执行获取
     try:
