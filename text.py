@@ -15,3 +15,13 @@ for key in data:
 def text():
     nmes={'name':'Kevin','name2':'Tom'}
     return nmes
+
+
+import os
+
+#例子：
+#os.path.exists(path)
+#如果path存在，返回True；如果path不存在，返回False。
+filepath = '/home/sy/下载/chls'
+result = os.path.exists(filepath)
+print(result)
