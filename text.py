@@ -25,3 +25,4 @@ import os
 filepath = '/home/sy/下载/chls'
 result = os.path.exists(filepath)
 print(result)
+
